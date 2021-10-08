@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <script>
+      const fs = require('fs')
+      let i = 0;
+      setInterval(() => {
+        let n = i++;
+        console.log('initiating fs stat call #' + n); // This line runs
+        fs.stat('/', () => {
+          console.log('got answer for fs call #' + n); // This line never does
+        });
+      }, 1000);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "electron-spectron-fs-problem-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^13.5.1",
+    "spectron": "^15.0.0"
+  }
+}
